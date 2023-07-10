@@ -1,0 +1,28 @@
+- De-Cenetrilized VCS
+git 
+- Centerlized Version control system 
+svn , cvs 
+
+- git --version 
+- touch file name
+- gedit filename
+- git init 
+- git add filename, git status, git commit -m "message"
+- git add -A
+- git log
+- git merge branchname ; you have to be on detination branch
+- cat filename to show content of file 
+
+(Remote Commands)
+- git remote add origin(name of URL) remoteURL(ssh)
+- git pull origin branchname
+- git remote -v; git remote rm nameoforigin; git remote remove nameoforigin
+- git remote rename orgin old-origin 
+- cd .git/config (check remote via config fileq)
+- git config --list --show-origin | grep 'remote.origin'   (shiow all orgin list set globally)
+- git config --global --unset-all remote.origin.url
+- git config --global --unset-all remote.origin.fetch
+https://stackoverflow.com/questions/11690709/can-a-project-have-multiple-origins
+
+(Branches)
+- 
