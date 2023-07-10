@@ -10,9 +10,8 @@ svn , cvs
 - git add filename, git status, git commit -m "message"
 - git add -A
 - git log
-- git merge branchname ; you have to be on detination branch
-- cat filename to show content of file 
 
+- 
 (Remote Commands)
 - git remote add origin(name of URL) remoteURL(ssh)
 - git pull origin branchname
@@ -25,4 +24,8 @@ svn , cvs
 https://stackoverflow.com/questions/11690709/can-a-project-have-multiple-origins
 
 (Branches)
-- 
+- git checkout -b brachname
+- git rebase branchname 
+- git merge branchname ; you have to be on detination branch
+- cat filename to show content of file 
+- https://stackoverflow.com/questions/16666089/whats-the-difference-between-git-merge-and-git-rebase
