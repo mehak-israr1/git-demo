@@ -28,4 +28,7 @@ https://stackoverflow.com/questions/11690709/can-a-project-have-multiple-origins
 - git rebase branchname 
 - git merge branchname ; you have to be on detination branch
 - cat filename to show content of file 
-- https://stackoverflow.com/questions/16666089/whats-the-difference-between-git-merge-and-git-rebase
+- https://stackoverflow.com/questions/16666089/whats-the-difference-between-git-merge-and-git-rebaset
+
+Revert changes
+- git checkout commitfirst8digit textfilename
